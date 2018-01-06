@@ -19,10 +19,10 @@
             <h5 class="text-light pb-3">Sosial Media</h5>
             <div class="d-flex align-items-center">
               <ul class="list-inline d-inline-block">
-                <li class="list-inline-item"><a class="text-light" href="#"><i class="fa fa-github-square fa-2x"></i></a></li>
-                <li class="list-inline-item"><a class="text-light" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
-                <li class="list-inline-item"><a class="text-light" href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                <li class="list-inline-item"><a class="text-light" href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                <li class="list-inline-item"><a class="text-light" href="#"><i class="fab fa-github-square fa-2x"></i></a></li>
+                <li class="list-inline-item"><a class="text-light" href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li class="list-inline-item"><a class="text-light" href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                <li class="list-inline-item"><a class="text-light" href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
               </ul>
               <button class="btn btn-sm btn-ghost border-white text-white">Mari Berdonasi</button>
             </div>
@@ -34,7 +34,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <p class="text-center text-light text-md-left"><i class="fa fa-creative-commons font-weight-bold"></i> lisensi terbuka dari <strong>Saliim.org</strong></p>
+            <p class="text-center text-light text-md-left"><i class="fab fa-creative-commons"></i> lisensi terbuka dari <strong>Saliim.org</strong></p>
           </div>
         </div>
       </div>

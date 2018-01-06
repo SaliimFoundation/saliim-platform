@@ -4,7 +4,7 @@ module.exports = {
   */
   css: [
     { src: '~/node_modules/bootstrap/dist/css/bootstrap.css' },
-    { src: '~/node_modules/font-awesome/css/font-awesome.css' },
+    { src: '~/assets/fa/css/fontawesome-all.css' },
     { src: '~/assets/styles.css' }
   ],
   head: {
