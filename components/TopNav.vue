@@ -56,9 +56,12 @@
         navHeight: 0
       }
     },
-    props: [
-      'navStyle'
-    ],
+    props: {
+      navStyle: {
+        type: null,
+        default: ''
+      }
+    },
     watch: {
       windowWidth: function (width) {
       }
@@ -78,7 +81,6 @@
     },
 
     mounted () {
-      console.log(this.$el.style)
       let that = this
       that.windowWidth = window.innerWidth
       that.windowHeight = document.body.offsetHeight

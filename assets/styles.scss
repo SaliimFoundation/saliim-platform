@@ -81,4 +81,19 @@ p, span {
   background-color: $primary;
 }
 
-
+//ANIMATION
+.slide-down-enter-active, .slide-down-leave-active {
+  -webkit-transition: all 650ms;
+  -moz-transition: all 650ms;
+  -ms-transition: all 650ms;
+  -o-transition: all 650ms;
+  transition: all 650ms;
+}
+.slide-down-enter, .slide-down-leave-to {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+  opacity: 0;
+}

@@ -1,22 +1,22 @@
 <template>
   <div>
-    <transition name="slide-down" appear>
-      <header>
-        <top-nav nav-style="light"></top-nav>
-        <div class="container py-5">
-          <div class="row align-items-center">
+    <header>
+      <top-nav nav-style="light"></top-nav>
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <transition name="slide-down" appear>
             <div class="col-12 col-md-6">
               <h1 class="text-light">Berinfaq adalah ibadah</h1>
               <p class="text-light">Mari berinfaq sebagai bentuk ibadah di jalan Allah melalui Saliim untuk memudahkan ummat beribadah melalui teknologi.</p>
             </div>
-          </div>
+          </transition>
         </div>
-      </header>
-    </transition>
+      </div>
+    </header>
     <section>
       <div class="container py-5">
         <div class="row">
-          <div class="col-12 col-md-6 offset-4">
+          <div class="col-12 col-md-6 offset-md-4">
             <h3>Menjadi donatur bagi karya developer muslim</h3>
             <p>Saliim tidak mengambil keuntungan dan uang donasi akan sepenuhnya diputar untuk menjadi wakaf produktif dan menjadi manfaat bagi masyarakat luas.</p>
             <p>Kami menyediakan <i>channel</i> donasi melalui <a class="font-weight-bold" href="https://patreon.com" v-bind:style="{color: '#F96854'}">Patreon</a> dan <a class="font-weight-bold" href="https://opencollective.com" v-bind:style="{color: '#7FADF2'}">Open collective</a></p>
@@ -80,20 +80,5 @@
     background: #4A4A4A;
     color: #FAFAFF;
     font-size: .8rem;
-  }
-  .slide-down-enter-active, .slide-down-leave-active {
-    -webkit-transition: all 650ms;
-    -moz-transition: all 650ms;
-    -ms-transition: all 650ms;
-    -o-transition: all 650ms;
-    transition: all 650ms;
-  }
-  .slide-down-enter, .slide-down-leave-to {
-    -webkit-transform: translateY(-100%);
-    -moz-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
-    transform: translateY(-100%);
-    opacity: .5;
   }
 </style>

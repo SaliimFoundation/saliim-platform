@@ -1,20 +1,20 @@
 <template>
   <div>
-    <transition name="slide-down" appear>
-      <header>
-        <TopNav/>
-        <div class="container hero">
-          <div class="row">
-            <div class="col-12 py-5">
+    <header>
+      <TopNav/>
+      <div class="container hero">
+        <div class="row">
+          <div class="col-12 py-5">
+            <transition name="slide-down" appear>
               <div class="hero-body col-12 col-md-6 text-center text-md-left">
                 <h1>Bersama <span>Saliim Foundation</span>,<br>beramal dalam teknologi</h1>
                 <p class="hero-p">Mari berkontribusi positif terhadap sekitar dan ummat melalui pengembangan teknologi yang membantu kemudahan beribadah bagi sesama muslim.</p>
               </div>
-            </div>
+            </transition>
           </div>
         </div>
-      </header>
-    </transition>
+      </div>
+    </header>
     <section class="benefit py-5">
       <div class="container">
         <div class="row">
@@ -162,21 +162,6 @@ export default {
     display: inline-block;
     padding: 4px;
     border-radius: 12px;
-  }
-  .slide-down-enter-active, .slide-down-leave-active {
-    -webkit-transition: all 650ms;
-    -moz-transition: all 650ms;
-    -ms-transition: all 650ms;
-    -o-transition: all 650ms;
-    transition: all 650ms;
-  }
-  .slide-down-enter, .slide-down-leave-to {
-    -webkit-transform: translateY(-100%);
-    -moz-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
-    transform: translateY(-100%);
-    opacity: .5;
   }
   @media (max-width: 767px) {
     .bg-placeholder {
